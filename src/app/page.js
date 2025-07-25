@@ -41,7 +41,7 @@ export default function Home() {
 				<div className="mt-12 md:mt-16">
 					<h2 className="eric-title">About</h2>
 					<p className="mt-4 md:mt-8">
-						I'm Eric, a deve from China. I enjoy building dynamic, creative products
+						I'm Eric, a developer from China. I enjoy building dynamic, creative products
 						from start to finish. Focused on developing intuitive experiences that
 						constantly grow and improve based on user metrics. Recently focused on
 						research and development of AI agents.
