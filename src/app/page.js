@@ -51,18 +51,30 @@ export default function Home() {
 				{/* Work Experience Section */}
 				<section className="mt-12 md:mt-16">
 					<h2 className="eric-title pb-2 md:pb-10">Work Experience</h2>
+                    <div className="md:grid md:grid-cols-4 md:justify-between md:items-start gap-12 mb-14">
+						<div className="md:col-span-1 text-sm md:text-base mb-2 md:mb-4 mt-4 md:mt-1 timeline">
+							2025 - Present
+						</div>
+						<div className="md:col-span-3">
+							<h3 className="text-base md:text-lg text-white">AI Agent Engineer - Yunti Technology</h3>
+							<p className="mt-2 md:mt-3 text-sm md:text-base">
+                                <i>BookLink AI Assistant:</i> Based on the existing books publish ERP platform, I designed and built a multi-agent system to handle operations like orders processing, product marketing, reporting, platform distribution, and billing reconciliation from scratch.
+							</p>
+							<p className="text-sm md:text-base mt-2 text-gray-300">
+								Python • FastAPI • Langgraph • ReactJS • Typescript • TailwindCSS • Cursor
+							</p>
+						</div>
+					</div>
+
 					<div className="md:grid md:grid-cols-4 md:justify-between md:items-start gap-12 mb-14">
 						<div className="md:col-span-1 text-sm md:text-base mb-2 md:mb-4 mt-4 md:mt-1 timeline">
-							2025 – Present
+							2025
 						</div>
 						<div className="md:col-span-3">
 							<h3 className="text-base md:text-lg text-white">Freelance</h3>
 							<p className="mt-2 md:mt-3 text-sm md:text-base">
 								Worked with a range of large and small agencies, start-ups and
 								individuals to build products.
-							</p>
-							<p className="text-sm md:text-base mt-2 text-gray-300">
-								ReactJS • TypeScript • NextJS • Tailwind • VueJS • Langgraph • Cursor
 							</p>
 						</div>
 					</div>
